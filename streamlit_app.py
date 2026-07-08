@@ -3,6 +3,14 @@ import streamlit as st
 from snowflake.snowpark.functions import col
 import requests  
 
+streamlit.title('New Healthy Diner')
+
+streamlit.header('Breakfast Favorites')
+streamlit.text('Omega 3 & Blueberry Oatmeal')
+streamlit.text('Kale, Spinach & Rocket Smoothie')
+streamlit.text('Hard-Boiled Free-Range Egg')
+streamlit.text('Avocado Toast')
+
 # Write directly to the app
 st.title(f":cup_with_straw: Customize Your Smoothie! :cup_with_straw:")
 st.write(
